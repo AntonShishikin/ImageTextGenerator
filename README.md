@@ -15,7 +15,6 @@
 
 - Xcode 14 or later
 - Swift 5.8 or later
-- iOS 16.0 or later
 
 ### Cloning the Repository
 
