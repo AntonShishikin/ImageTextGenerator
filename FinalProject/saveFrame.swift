@@ -4,7 +4,7 @@ func saveFrame(view: some View, fileName: String) {
     let controller = NSHostingController(rootView: view)
     let view = controller.view
 
-    let targetSize = CGSize(width: 800, height: 600)
+    let targetSize = CGSize(width: 1000, height: 1000)
     view.setFrameSize(targetSize)
 
     let bitmapRep = view.bitmapImageRepForCachingDisplay(in: view.bounds)!
